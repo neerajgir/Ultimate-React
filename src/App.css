@@ -38,3 +38,17 @@ nav ul {
   justify-content: center;
   font-size: 30px;
 }
+
+.props {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(110, 44, 44);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 10px;
+}
