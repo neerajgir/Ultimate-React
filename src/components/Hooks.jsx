@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
 const Hooks = () => {
-    const [color, setColor] = useState("pink");
+    let [count, setCount] = useState(0);
 
   return (
-    <div>
-        <h1>My Favorite color is {color}</h1>
-        <button onClick={()=> setColor("Black")}>black</button>
+    <div> 
+        <h1>{count}</h1>
+        <button onClick={()=> setCount(count++)}>Increment</button>
     </div>
   )
 }
