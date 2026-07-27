@@ -2,12 +2,13 @@ import React from 'react'
 import Image1 from "../assets/1.jpg"
 import Image2 from "../assets/2.jpg"
 import Image3 from "../assets/3.jpg"
+import Card from './Card';
 const Hero = () => {
   return (
     <div className="hero">
-        <img src={Image1} alt="A boy drive cycle" width="500px"/>
-        <img src={Image2} alt="A man drive tramp" width="500px"/>
-        <img src={Image3} alt="A man doing painting" width="500px"/>
+      <Card name="Boy" about="A boy drive cycle" image={Image1}/>
+      <Card name="Driver" about="A man drive tramp" image={Image2}/>
+      <Card name="Painter" about="A man doing painting" image={Image3}/>
     </div>
   )
 }
